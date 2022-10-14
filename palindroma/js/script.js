@@ -1,6 +1,10 @@
 const userWord = prompt("Inserisci una parola");
 
-console.log(palindrome(userWord));
+if(palindrome(userWord)) {
+    alert("Palindroma!");
+} else {
+    alert("Non palindroma")
+}
 
 function palindrome (word) {
     let palindrome = true;
